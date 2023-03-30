@@ -20,10 +20,10 @@
 
 
 ## About BootBoxTemplate
-
+<div align="justify">
 ![bootboxtemplate](https://andresanz.com/assets/images/bootboxtemplate.png)
-
 [bootboxtemplate-screenshot](https://andresanz.com/assets/images/bootboxtemplate.png)
+</div>
 
 There are a lot of templates for Jekyll out there, but none of them seemed to do it for me.  I was looking for a simple template that included:
 * NOT Wordpress
