@@ -2,18 +2,18 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://github.com/andresanz/bootboxtheme">
+  <a href="https://github.com/andresanz/BootBox">
     <img src="https://andresanz.com/assets/images/bbt-logo.png" alt="Logo" width="80" height="80">
   </a>
   
-<h3 align="center">&bull; BootBoxTemplate &bull;</h3>
+<h3 align="center">&bull; BootBox &bull;</h3>
 
 <p align="center">
 <a href="https://andresanz.com">View (self-serving) Demo</a>
 &bull;
-<a href="https://github.com/andresanz/bootboxtemplate/issues">Report Bug</a>
+<a href="https://github.com/andresanz/BootBox/issues">Report Bug</a>
 &bull;
-<a href="https://github.com/andresanz/bootboxtemplate/discussions">Request Features</a>
+<a href="https://github.com/andresanz/BootBox/discussions">Request Features</a>
 
 </p>
 </div>
