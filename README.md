@@ -6,7 +6,7 @@
     <img src="https://andresanz.com/assets/images/bootbox.png" alt="Logo">
   </a>
   
-<h3 align="center">&bull; BootBox &bull;</h3>
+<h3 align="center">&bull; The BootBox Jekyll Template &bull;</h3>
 
 <p align="center">
 <a href="https://andresanz.com">View (self-serving) Demo</a>
