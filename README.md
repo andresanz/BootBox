@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/andresanz/BootBox">
-    <img src="https://andresanz.com/assets/images/bbt-logo.png" alt="Logo" width="80" height="80">
+    <img src="https://andresanz.com/assets/images/bootbox.png" alt="Logo" width="80" height="80">
   </a>
   
 <h3 align="center">&bull; BootBox &bull;</h3>
