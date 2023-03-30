@@ -1,21 +1,19 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-<div align="center">
+<div align="justify">
   <a href="https://github.com/andresanz/BootBox">
     <img src="https://andresanz.com/assets/images/bootbox.png" alt="Logo">
   </a>
   
-<h3 align="center">&bull; The BootBox Jekyll Template &bull;</h3>
+<h3>&bull; The BootBox Jekyll Template &bull;</h3>
 
-<p align="center">
 <a href="https://andresanz.com">View (self-serving) Demo</a>
 &bull;
 <a href="https://github.com/andresanz/BootBox/issues">Report Bug</a>
 &bull;
 <a href="https://github.com/andresanz/BootBox/discussions">Request Features</a>
 
-</p>
 </div>
 
 
