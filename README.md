@@ -21,7 +21,7 @@
 
 ## About BootBoxTemplate
 
-<p align="center">![bootboxtemplate](https://andresanz.com/assets/images/bootboxtemplate.png)</a>
+<p align="center">![bootboxtemplate](https://andresanz.com/assets/images/bootboxtemplate.png)</p>
 
 [bootboxtemplate-screenshot](https://andresanz.com/assets/images/bootboxtemplate.png)
 
