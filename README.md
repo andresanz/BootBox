@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-<div align="justify">
+<div align="center">
   <a href="https://github.com/andresanz/BootBox">
     <img src="https://andresanz.com/assets/images/bootbox.png" alt="Logo">
   </a>
@@ -17,10 +17,13 @@
 </div>
 
 
-## About BootBoxTemplate
-<div align="justify">
-![bootboxtemplate](https://andresanz.com/assets/images/bootboxtemplate.png)
-[bootboxtemplate-screenshot](https://andresanz.com/assets/images/bootboxtemplate.png)
+## About BootBox
+<div align="center">
+
+![bootbox](https://andresanz.com/assets/images/bootboxtemplate.png)
+
+[bootbox screenshot](https://andresanz.com/assets/images/bootboxtemplate.png)
+
 </div>
 
 There are a lot of templates for Jekyll out there, but none of them seemed to do it for me.  I was looking for a simple template that included:
