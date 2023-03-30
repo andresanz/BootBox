@@ -1,0 +1,46 @@
+{% include head.html %}
+{% include navbar.html %}
+
+<div class="container">
+		<div class="row">
+
+	<div class="p-3 border rounded-1 bg-as">
+		<h1 class="lh-1">{{ page.title }}</h1>
+		
+		<p class="mb-0"><a href="/" class="as-menu-link">{{ site.shortname }}</a><i class="fa-regular fa-circle"></i><a href="/{{ page.category | downcase }}" class="as-menu-link">{{ page.category | downcase }}</a><i class="fa-regular fa-circle"></i>{% include meta.html %}</p>
+	</div>
+	
+	<div class="p-3 border rounded-1 bg-light mt-2">
+		
+		<body>
+			
+			{% if page.feature-image %}
+			<span class="img-fluid float-start me-3 mt-2 mb-2 rounded-1">
+				<a href="{{ post.url }}">
+					<img src="{{ page.feature-image }}" width="{{ page.feature-image-width }}" height="{{ page.feature-image-height }}">
+				</a>
+			</span>
+			{% else %}
+			{% endif %}
+			
+			{{ content }}
+			
+			{% include signature.html %}
+			
+			{% if page.category == "Writing" %}
+			
+			{% else %}
+			
+			<div class="disqus post">
+				{% include disqus.html %}
+			</div>
+			
+			{% endif %}
+			
+		</body>
+	</div>
+</div>
+</div>
+
+{% include footer.html %}
+
