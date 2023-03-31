@@ -53,47 +53,13 @@ Then used the following <a href="https://shopify.github.io/liquid/basics/introdu
 {% if post.categories contains 'Blog' %}
 ```
 
+### Details
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```js
-const API_KEY = 'ENTER YOUR API';
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Visit [this page](https://andresanz.com/about) for details about BootBox.
 
 ## Contact
 
-Your Name - [@Nine14dotio](https://twitter.com/nine14dotio)
-
-Project Link: [https://github.com/andresanz/bootboxtemplate](https://github.com/andresanz/bootboxtemplate)
+[Contact Me](https://andresanz.com/contact)
+[Project Page](https://github.com/andresanz/bootboxtemplate)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
