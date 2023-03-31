@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<h3><ins>B</ins>oot<ins>B>/ins>ox</h3>
+<h3><ins>B</ins>oot<ins>B</ins>ox</h3>
 <h4>&bull; The BootBox Jekyll Template &bull;</h3>
 
 <a href="https://andresanz.com">View (self-serving) Demo</a>
