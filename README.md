@@ -6,6 +6,10 @@
 <img src="https://andresanz.com/assets/images/bootbox.png" alt="Logo">
 </a>
 
+</div>
+
+<div align="center" style="margin-top: 0px;">
+
 <h3>&bull; The BootBox Jekyll Template &bull;</h3>
 
 <a href="https://andresanz.com">View (self-serving) Demo</a>
@@ -17,7 +21,7 @@
 </div>
 
 ## About BootBox
-<div align="center" style="margin-top: 0px;">
+<div align="center">
 
 ![bootbox](https://andresanz.com/assets/images/BootBoxTemplatePrintScreen.png)
 
