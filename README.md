@@ -20,9 +20,7 @@
 ## About BootBox
 <div align="center">
 
-![bootbox](https://andresanz.com/assets/images/bootboxtemplate.png)
-
-[bootbox screenshot](https://andresanz.com/assets/images/bootboxtemplate.png)
+![bootbox](https://andresanz.com/assets/images/BootBoxTemplatePrintScreen.png)
 
 </div>
 
