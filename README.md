@@ -25,7 +25,7 @@
 </div>
 
 There are a lot of templates for Jekyll out there, but none of them seemed to do it for me.  I was looking for a simple template that included:
-* NOT Wordpress
+* NOT Wordpress ;)
 * <a href="https://github.com/andresanz/BootBox#multi-blog-support">Multi-blog support</a>
 * local assets (as much as possible...)
 
@@ -42,6 +42,10 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ## Multi-Blog Support<a href="https://github.com/andresanz/BootBox#multi-blog-support">
 
 So what is "Multi-Blog Support?"  I wanted to be able to run seperate blogs in the same domain, so that I could have public blog posts, and private ones.  I did that by seperating posts by categories, using tags to search within that category.
+
+'''jekyll
+permalink: /:categories/:year/:month/:day/:title/
+'''
 
 
 ### Prerequisites
