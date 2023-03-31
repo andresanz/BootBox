@@ -2,8 +2,7 @@
 
 <div align="center">
 
-<h1><ins>B</ins>oot<ins>B</ins>ox</h1>
-<h2>&bull; The BootBox Jekyll Template &bull; </h2>
+![bootbox](https://andresanz.com/assets/images/BootBoxLogo.png)
 
 <a href="https://andresanz.com">View (self-serving) Demo</a>
 &bull;
