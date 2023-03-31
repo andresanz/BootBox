@@ -41,10 +41,16 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ## Multi-Blog Support<a href="https://github.com/andresanz/BootBox#multi-blog-support">
 
-So what is "***Multi-Blog Support?***"  I wanted to be able to run seperate blogs in the same domain, so that I could have public blog posts, and private ones.  I did that by seperating posts by categories, using tags to search within that category.  Within ```_config.yml```, I changed the ```permalinks``` setting
+So what is "***Multi-Blog Support?***"  I wanted to be able to run seperate blogs in the same domain, so that I could have public blog posts, and private ones.  I did that by seperating posts by categories, using tags to search within that category.  Within ```_config.yml```, I changed the ```permalinks``` setting to not point to a category-based folder:
 
 ```
 permalink: /:categories/:year/:month/:day/:title/
+```
+
+Then used the following <a href="https://shopify.github.io/liquid/basics/introduction/"liquid</a> tag:
+
+```
+{% if post.categories contains 'Blog' %}
 ```
 
 
