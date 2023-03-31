@@ -4,7 +4,13 @@
 {% assign kind = page %}
 {% endif %}
 
-<!--<i class="fa-regular fa-calendar-days"></i>--> {{ kind.date | date: "%Y-%m-%d" }}<i class="fa-regular fa-circle"></i>
+{{ kind.date | date: "%Y-%m-%d" }}
+
+{% if kind.date-modified %}<i class="far fa-arrow-alt-circle-right fa-xs"></i>&nbsp;{{ kind.date-modified | date: "%Y-%m-%d" }}<i class="fa-regular fa-circle"></i>
+{% else %}
+<i class="fa-regular fa-circle"></i>
+{% endif %}
+
 
 {%- assign taglinks = kind.tags -%}
  

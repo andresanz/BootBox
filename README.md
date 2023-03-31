@@ -43,7 +43,7 @@ Then used the following <a href="https://shopify.github.io/liquid/basics/introdu
 
 <div align="center">
 
-## Visit [this page](https://andresanz.com/about) for details about BootBox.
+## Visit [this page](https://andresanz.com/blog/2023/03/21/about-this-site/) for details about BootBox.
 
 #### [Contact Me](https://andresanz.com/contact) &bull; [Project Page](https://github.com/andresanz/bootboxtemplate)
 
