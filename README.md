@@ -48,8 +48,12 @@ Then used the following <a href="https://shopify.github.io/liquid/basics/introdu
 {% if post.categories contains 'Blog' %}
 ```
 
+<div align="center">
+
 ## Visit [this page](https://andresanz.com/about) for details about BootBox.
 
-## [Contact Me](https://andresanz.com/contact) &bull; [Project Page](https://github.com/andresanz/bootboxtemplate)
+#### [Contact Me](https://andresanz.com/contact) &bull; [Project Page](https://github.com/andresanz/bootboxtemplate)
+
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
