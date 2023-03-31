@@ -8,7 +8,7 @@
 
 </div>
 
-<div align="center" style="margin-top: 0px;">
+<div align="center" style="margin-top: 0px !important;">
 
 <h3>&bull; The BootBox Jekyll Template &bull;</h3>
 
@@ -48,12 +48,10 @@ Then used the following <a href="https://shopify.github.io/liquid/basics/introdu
 {% if post.categories contains 'Blog' %}
 ```
 
-### Visit [this page](https://andresanz.com/about) for details about BootBox.
+## Visit [this page](https://andresanz.com/about) for details about BootBox.
 
-## Contact
+## Contact 
 
-[Contact Me](https://andresanz.com/contact)
-
-[Project Page](https://github.com/andresanz/bootboxtemplate)
+[Contact Me](https://andresanz.com/contact) &bull; [Project Page](https://github.com/andresanz/bootboxtemplate)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
