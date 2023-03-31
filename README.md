@@ -3,14 +3,8 @@
 <div align="center">
 
 <a href="https://github.com/andresanz/BootBox">
-<img src="https://andresanz.com/assets/images/bootbox.png" alt="Logo">
+<img src="https://andresanz.com/assets/images/BootBoxLogo.png" alt="BootBox Logo">
 </a>
-
-</div>
-
-<div align="center">
-
-<h3 style="margin-top: 0px;">&bull; The BootBox Jekyll Template &bull;</h3>
 
 <a href="https://andresanz.com">View (self-serving) Demo</a>
 &bull;
@@ -29,6 +23,7 @@
 
 There are a lot of templates for Jekyll out there, but none of them seemed to do it for me.  I was looking for a simple template that included:
 * NOT Wordpress ;)
+* Bootstrap 5
 * <a href="#multi-blog-support">Multi-blog support</a>
 * local assets (as much as possible...)
 
