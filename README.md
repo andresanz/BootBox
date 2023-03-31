@@ -50,8 +50,6 @@ Then used the following <a href="https://shopify.github.io/liquid/basics/introdu
 
 ## Visit [this page](https://andresanz.com/about) for details about BootBox.
 
-## Contact 
-
-[Contact Me](https://andresanz.com/contact) &bull; [Project Page](https://github.com/andresanz/bootboxtemplate)
+## [Contact Me](https://andresanz.com/contact) &bull; [Project Page](https://github.com/andresanz/bootboxtemplate)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
