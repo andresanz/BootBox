@@ -43,9 +43,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 So what is "Multi-Blog Support?"  I wanted to be able to run seperate blogs in the same domain, so that I could have public blog posts, and private ones.  I did that by seperating posts by categories, using tags to search within that category.
 
-'''jekyll
+```jekyll
 permalink: /:categories/:year/:month/:day/:title/
-'''
+```
 
 
 ### Prerequisites
