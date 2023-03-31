@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![bootbox](https://andresanz.com/assets/images/BootBoxLogo.png)
+![bootbox](https://andresanz.com/assets/images/BootBoxLogo.jpg)
 
 <a href="https://andresanz.com">View (self-serving) Demo</a>
 &bull;
