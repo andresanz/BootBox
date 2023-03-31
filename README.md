@@ -28,11 +28,11 @@ There are a lot of templates for Jekyll out there, but none of them seemed to do
 * <a href="#multi-blog-support">Multi-blog support</a>
 * local assets (as much as possible...)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Multi-Blog Support<a href="#multi-blog-support">
 
-So what is "***Multi-Blog Support?***"  I wanted to be able to run seperate blogs in the same domain, so that I could have public blog posts, and private ones.  I did that by seperating posts by categories, using tags to search within that category.  Within ```_config.yml```, I changed the ```permalinks``` setting to not point to a category-based folder:
+So what is "***Multi-Blog Support?***"  
+
+I wanted to be able to run seperate blogs in the same domain, so that I could have public blog posts, and private ones.  I did that by seperating posts by categories, using tags to search within that category.  Within ```_config.yml```, I changed the ```permalinks``` setting to not point to a category-based folder:
 
 ```
 permalink: /:categories/:year/:month/:day/:title/
@@ -44,15 +44,12 @@ Then used the following <a href="https://shopify.github.io/liquid/basics/introdu
 {% if post.categories contains 'Blog' %}
 ```
 
-### Built With
-
-Visit [this page](https://andresanz.com/about) for details about BootBox.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Visit [this page](https://andresanz.com/about) for details about BootBox.
 
 ## Contact
 
 [Contact Me](https://andresanz.com/contact)
+
 [Project Page](https://github.com/andresanz/bootboxtemplate)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
