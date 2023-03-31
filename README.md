@@ -16,7 +16,6 @@
 
 </div>
 
-
 ## About BootBox
 <div align="center" style="margin-top: 0px;">
 
@@ -30,14 +29,6 @@ There are a lot of templates for Jekyll out there, but none of them seemed to do
 * local assets (as much as possible...)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Getting Started
 
 ## Multi-Blog Support<a href="#multi-blog-support">
 
@@ -53,9 +44,11 @@ Then used the following <a href="https://shopify.github.io/liquid/basics/introdu
 {% if post.categories contains 'Blog' %}
 ```
 
-### Details
+### Built With
 
 Visit [this page](https://andresanz.com/about) for details about BootBox.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
 
