@@ -10,7 +10,7 @@
 
 <div align="center">
 
-<h3 style="margin-top: 0px !important;">&bull; The BootBox Jekyll Template &bull;</h3>
+<h3 style="margin-top: 0px;">&bull; The BootBox Jekyll Template &bull;</h3>
 
 <a href="https://andresanz.com">View (self-serving) Demo</a>
 &bull;
