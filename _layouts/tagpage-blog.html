@@ -20,9 +20,13 @@ layout: default
 			
 			<ul class="taglist">
 				{% for post in site.tags[page.tag] %}
+				{% if post.categories contains 'Blog' %}
+				
 				<li class="taglist">
-				<i class="fa-solid fa-circle"></i> <a class="as-menu-link noline" href="{{ post.url }}">{{ post.title }}</a><i class="fa-regular fa-circle"></i>{% include meta.html %}
+					<i class="fa-solid fa-circle"></i> <a class="as-menu-link noline" href="{{ post.url }}">{{ post.title }}</a><i class="fa-regular fa-circle"></i>{% include meta.html %}
 				</li>
+				{% endif %}
+				
 				{% endfor %}
 			</ul>
 			

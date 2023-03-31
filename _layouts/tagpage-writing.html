@@ -3,27 +3,31 @@ layout: default
 ---
 
 <div class="container">
-		<div class="row">
-
-	
-	<div class="p-3 border rounded-1 bg-as">
-		<h1 class="lh-1">Tag: {{ page.title }}</h1>
+	<div class="row">
 		
-		<p class="mb-0">
-		<a href="/" class="as-menu-link">{{ site.shortname }}</a><i class="fa-regular fa-circle"></i><a href="/writing" class="as-menu-link">writing</a><i class="fa-regular fa-circle"></i><a href="/writing/tags" class="as-menu-link">tags</a><i class="fa-regular fa-circle"></i><a href="/writing/tags/{{ page.tag | downcase | slugify }}" class=" text-muted as-menu-link">{{ page.tag | downcase }}</a>
-		</p>
 		
-	</div>
-	<div class="p-3 border rounded-1 bg-light mt-2">
-		
-		<ul class="taglist">
-			{% for post in site.tags[page.tag] %}
-			<li class="taglist">
-			<i class="fa-solid fa-circle"></i> <a class="as-menu-link noline" href="{{ post.url }}">{{ post.title }}</a><i class="fa-regular fa-circle"></i>{% include meta.html %}
-			</li>
-			{% endfor %}
-		</ul>
-		
-	</div>
+		<div class="p-3 border rounded-1 bg-as">
+			<h1 class="lh-1">Tag: {{ page.title }}</h1>
+			
+			<p class="mb-0">
+				<a href="/" class="as-menu-link">{{ site.shortname }}</a><i class="fa-regular fa-circle"></i><a href="/writing" class="as-menu-link">writing</a><i class="fa-regular fa-circle"></i><a href="/writing/tags" class="as-menu-link">tags</a><i class="fa-regular fa-circle"></i><a href="/writing/tags/{{ page.tag | downcase | slugify }}" class=" text-muted as-menu-link">{{ page.tag | downcase }}</a>
+			</p>
+			
+		</div>
+		<div class="p-3 border rounded-1 bg-light mt-2">
+			
+			<ul class="taglist">
+				{% for post in site.tags[page.tag] %}
+				{% if post.categories contains 'Writing' %}
+				
+				<li class="taglist">
+					<i class="fa-solid fa-circle"></i> <a class="as-menu-link noline" href="{{ post.url }}">{{ post.title }}</a><i class="fa-regular fa-circle"></i>{% include meta.html %}
+				</li>				
+				{% endif %}
+				
+				{% endfor %}
+			</ul>
+			
+		</div>
 	</div>
 </div>
