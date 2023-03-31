@@ -2,8 +2,8 @@
 
 <div align="center">
 
-# <ins>B</ins>oot<ins>B</ins>ox</h3>
-## &bull; The BootBox Jekyll Template &bull;
+<h1> <ins>B</ins>oot<ins>B</ins>ox </h1>
+<h2> &bull; The BootBox Jekyll Template &bull; </h2>
 
 <a href="https://andresanz.com">View (self-serving) Demo</a>
 &bull;
