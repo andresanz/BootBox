@@ -1,6 +1,10 @@
+<div class="row">
+	<div class="p-3 border rounded-1 bg-light mt-3">
+		
+	<h1 class="lh-1"  data-bs-toggle="collapse" href="#disquscollapse" role="button" aria-expanded="false" aria-controls="disquscollapse">Comments <i class="fa-solid fa-down-left-and-up-right-to-center fa-2xs" style="color: lightgrey;"></i></h1>
 {% if page.comments != false %}
 
-<div class="container" style="padding-left: 0px !important; padding-right: 0px !important;">
+<div class="container collapse show" id="disquscollapse" style="padding-left: 0px !important; padding-right: 0px !important;">
 			<div class="p-2 border rounded-1 bg-light mb-0"  style="background-color: white !important;">
 				<div id="disqus_thread" style="background-color: white !important;"></div>
 				<script>
@@ -20,3 +24,6 @@
 				<script id="dsq-count-scr" src="//andre-sanz.disqus.com/count.js" async></script>			
 			</div>
 {% endif %}
+</div>
+</div>
+

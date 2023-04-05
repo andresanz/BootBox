@@ -1,0 +1,28 @@
+<div class="row">
+	<div class="p-3 border rounded-1 bg-light mt-3">
+		
+		<h1 class="lh-1" data-bs-toggle="collapse" href="#relatedcollapse" role="button" aria-expanded="false" aria-controls="relatedcollapse">Related Posts <i class="fa-solid fa-down-left-and-up-right-to-center fa-2xs" style="color: lightgrey;"></i></h1>
+		
+		{% for post in site.related_posts limit:3 %}
+		{% assign match = false %}
+		{% for category in post.categories %}
+		{% if page.categories contains category %}
+		{% assign match = true %}
+		{% endif %}
+		{% endfor %}
+		{% if match %}
+		<div class="collapse show" id="relatedcollapse">
+			<ul style="list-style-type: none; padding: 0;">
+				<li class="mb-2">
+					<a href="{{ post.url }}">{{ post.title }}</a><span>
+						{{ post.content | strip_html | truncatewords: 30 }}
+					</span>
+				</li>
+			</ul>
+		</div>
+		{% endif %}                       
+		{% endfor %}
+		
+	</div>
+</div>
+
