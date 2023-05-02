@@ -11,18 +11,16 @@
 <i class="fa-regular fa-circle"></i>
 {% endif %}
 
-
 {%- assign taglinks = kind.tags -%}
  
-
 {% for taglinks in kind.tags %}
 		
 {% unless forloop.last %}
-<a class="as-menu-link" href="/{{ kind.category | slugify }}/tags/{{ taglinks | replace: " ","-" | downcase }}#{{ taglinks | replace: " ","-" | downcase }}">{{ taglinks }}</a>,
+<a class="as-menu-link" href="/{{ kind.category | slugify }}/tags/{{ taglinks | replace: " ","-" | downcase }}">{{ taglinks }}</a>,
 
 {% else %}
 		
-<a class="as-menu-link" href="/{{ kind.category | slugify }}/tags/{{ taglinks | replace: " ","-" | downcase }}#{{ taglinks | replace: " ","-" | downcase }}">{{ taglinks }}</a>
+<a class="as-menu-link" href="/{{ kind.category | slugify }}/tags/{{ taglinks | replace: " ","-" | downcase }}">{{ taglinks }}</a>
 		
 {% endunless %}
 {% endfor %}

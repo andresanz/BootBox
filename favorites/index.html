@@ -6,39 +6,46 @@ title: Favorites
 
 <body>
 	<div class="container">
-	<div class="row">
+		<div class="row">
 			
 			<div class="p-3 border rounded-1 bg-as">
 				<h1 class="lh-1">Favorites</h1>
-			<p class="mb-0"><a href="/" class="as-menu-link">{{ site.shortname }}</a><i class="fa-regular fa-circle"></i><a href="/favorites" class="as-menu-link text-muted">favorites</a></p>
+				<p class="mb-0"><a href="/" class="as-menu-link">{{ site.shortname }}</a><i class="fa-regular fa-circle"></i><a href="/favorites" class="as-menu-link text-muted">favorites</a></p>
 			</div>
 			
-			
-			{% comment %} built via favorites.yml {% endcomment %}
-			
 			<div class="p-3 border rounded-1 bg-light mt-2">
-				
-				<div class="p-2 mb-2 bg-as">All links on this page will open in a new browser tab</div>
-				
-				{%- assign favorites = site.data.favorites -%}
-				{%- for bookmark in favorites.bookmark -%}
-				
-				<div class="m-2">
-					
-					{{ bookmark.category }}
-					
+				<details open class="home-page-details">
+					<summary>Main</summary>
 					<ul>
-						{%- for link in bookmark.links -%}
-						<li class="taglist">
-							<div><a href="{{ link.url }}" target="_blank">{{ link.name }}</a> <span class="text-muted">{{ link.comment }}</span></div>
-						</li>
-						{%- endfor -%}
+						<li><a href="https://mail.google.com">GMail</a></li>
 					</ul>
-					
-					{%- endfor -%}
-				</div>
-				</div>	
-
-			</div>	
+				</details>
+				
+				<details class="home-page-details">
+					<summary>Markdown, Jekyll, etc.</summary>
+					<ul>
+						<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheat Sheet</a></li>
+						<li><a href="https://www.freeformatter.com/xml-formatter.html">XML Formatter</a></li>
+						<li><a href="https://kramdown.gettalong.org/quickref.html">Kramdown Quik Reference</a></li>
+						<li><a href="https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html">YAML Syntax</a></li>
+						<li><a href="https://jojozhuang.github.io/tutorial/jekyll-usage-and-customization/">Jekyll Useage & Customization</a></li>
+						<li><a href="https://shopify.dev/docs/api/liquid/filters">Shopify Liquid Filters</a></li>
+						
+					</ul>
+				</details>
+				
+				<details class="home-page-details">
+					<summary>Google</summary>
+					<ul>
+						<li><a href="https://search.google.com/search-console?resource_id=sc-domain%3Aandresanz.com">Google Search Console</a></li>
+						<li><a href="https://programmablesearchengine.google.com/controlpanel/all">Google Programmable Search Console</a></li>
+						<li><a href="https://analytics.google.com/analytics/web/#/p337889293/reports/intelligenthome">Google Analytics Report</a></li>
+						<li><a href="https://www.publicalbum.org/blog/embedding-google-photos-albums">Google Photos Album Scraper</a></li>
+						
+					</ul>
+				</details>
+			</div>
+		</div>
 	</div>
+	
 	

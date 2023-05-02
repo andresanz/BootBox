@@ -12,10 +12,24 @@
 			<a class="nav-item nav-link" href="/contact">Contact</a>
 			<a class="nav-item nav-link" href="/resume">Resume</a>
 			<a class="nav-item nav-link" href="/blog">Blog</a>
-			<a class="nav-item nav-link as-show-on-small" href="https://github.com/andresanz"><i class="fa-brands fa-github"></i> Github</a>
-			<a class="nav-item nav-link as-show-on-small" href="https://twitter.com/@nine14dotio"><i class="fa-brands fa-twitter"></i> Twitter</a>
-			<a class="nav-item nav-link as-show-on-small" href="https://www.linkedin.com/in/andresanz/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>	
-			<a class="nav-item nav-link as-show-on-small" href="/blog/2023/03/21/about-this-site/">About</a>
+			
+			<ul class="nav navbar-nav">
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+					<div class="dropdown-menu dropdown-menu-end as-bg">
+						<a class="dropdown-item as-bg" href="https://github.com/andresanz">GitHub</a>		
+						<a class="dropdown-item as-bg" href="https://twitter.com/@nine14dotio">Twitter</a>
+						<a class="dropdown-item as-bg" href="https://www.linkedin.com/in/andresanz/">LinkedIn</a>
+						<hr style="margin-top: 0px; margin-bottom: 8px;">
+						<a class="dropdown-item as-bg" href="/favorites">Favorites</a>		
+						<a class="dropdown-item as-bg" href="/policy/privacy">Privacy</a>
+						<a class="dropdown-item as-bg" href="https://wiki.andresanz.com/" target="_blank">Wiki</a>
+						<a class="dropdown-item as-bg" href="/blog/2023/03/21/about-this-site/">About</a>
+						<hr style="margin-top: 0px; margin-bottom: 8px;">
+						<a class="dropdown-item as-bg" href="/secure" style="margin-bottom: -4px !important;">Secure</a>
+					</div>
+				</li>
+			</ul>
 			
 			{% if page.url contains "writing" %}
 			<ul class="nav navbar-nav">
@@ -35,30 +49,19 @@
 					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Photos</a>
 					<div class="dropdown-menu dropdown-menu-end as-bg">
 						<a class="dropdown-item as-bg" href="/photos">Posts</a>
-						<a class="dropdown-item as-bg" href="/photos/tags">Tags</a>	
+						<a class="dropdown-item as-bg" href="/photos/tags">Tags</a>
+						<hr style="margin-top: 0px; margin-bottom: 8px;">
+						<a class="dropdown-item as-bg" href="/photos/2023/04/10/an-image-a-day" style="margin-top: 0px; margin-bottom: 0px;">An Image a Day</a>
 					</div>
 				</li>
 			</ul>
 			{% endif %}
 			
-			<ul class="nav navbar-nav">
-				<li class="nav-item dropdown">
-					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
-					<div class="dropdown-menu dropdown-menu-end as-bg">
-						<a class="dropdown-item as-bg" href="/favorites">Favorites</a>		
-						<a class="dropdown-item as-bg" href="/policy/privacy">Privacy</a>
-						<a class="dropdown-item as-bg" href="https://wiki.andresanz.com/">Wiki</a>
-						<a class="dropdown-item as-bg" href="/blog/2023/03/21/about-this-site/">About</a>
-						<hr style="margin-top: 0px; margin-bottom: 8px;">
-						<a class="dropdown-item as-bg"  style="margin-bottom: 0px;" href="/secure"><i class="fa-solid fa-lock"></i> Secure</a>
-					</div>
-				</li>
-			</ul>
 		</div>
 		
 		<div class="collapse navbar-collapse" id="navbarNavRight" style="margin-right: 8px;">
 			<div class="navbar-nav ms-auto">
-			<a class="nav-link" href="/search"><i class="nav-item fa-solid fa-magnifying-glass"></i></a>
+				<a class="nav-link" href="/search"><i class="nav-item fa-solid fa-magnifying-glass"></i></a>
 				<a class="nav-link" href="https://www.linkedin.com/in/andresanz/" target="_blank"><i class="nav-item fa-brands fa-linkedin"></i></a>
 				<a class="nav-link" href="https://github.com/andresanz" target="_blank"><i class="nav-item fa-brands fa-github"></i></a>
 				<a class="nav-link" href="https://twitter.com/@nine14dotio" target="_blank"><i class="nav-item fa-brands fa-twitter"></i></a>
